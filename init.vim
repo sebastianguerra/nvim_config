@@ -68,6 +68,7 @@ let g:go_fmt_command='gofmt'
 """""""""""
 " Mapeos
 """""""""""""""""""
+let mapleader=" "
 nnoremap <A-1> :b 1<CR>
 nnoremap <A-2> :b 2<CR>
 nnoremap <A-3> :b 3<CR>
@@ -77,3 +78,13 @@ nnoremap <A-6> :b 6<CR>
 nnoremap <A-7> :b 7<CR>
 nnoremap <A-8> :b 8<CR>
 nnoremap <A-9> :b 9<CR>
+
+
+nnoremap <Leader>t :NERDTree<CR>
+nnoremap <Leader>v :vs<CR>
+nnoremap <A-h> <C-w>h<CR>
+nnoremap <A-j> <C-w>j<CR>
+nnoremap <A-k> <C-w>k<CR>
+nnoremap <A-l> <C-w>l<CR>
+
+
